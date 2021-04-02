@@ -6,7 +6,7 @@ const pacArray = [
   ["./PacMan1.png", "./PacMan2.png"],
   ["./PacMan3.png", "./PacMan4.png"],
 ];
-
+// don't forget to have the .png in the same folder rhg
 var direction = 0;
 var focus = 0;
 
@@ -27,7 +27,7 @@ function Run() {
 }
 setInterval(Run, 150);
 
-//line 35 straight forward just entered what is there (rhg)
+//line 28 straight forward just entered what is there (rhg)
 
 function checkPageBounds(direction, imgWidth, pos, pageWidth) {
   if (pos + imgWidth > pageWidth) {
